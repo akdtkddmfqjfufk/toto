@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+.photo{display: flex; background-image: url(../images/realback.png);
+ 
+}
+
+
+.con1 img{
+    
+    width: 500px; height: 500px;
+    animation: rotate_image 80s linear infinite;
+    transform-origin: 50% 50%;
+}
+@keyframes rotate_image{100%{transform: rotate(360deg);}}
+
+.con2{position: absolute; top: auto; left: 200px;}
+.con2 img{
+    width: 700px; height: 700px;
+    animation: rotate_image 100s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+
+.con3 img{
+   
+    width: 400px; height: 400px;
+    animation: rotate_image 70s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+
+.con4{position: absolute; top: auto; left: 900px;}
+.con4 img{
+  
+    width: 700px; height: 700px;
+    animation: rotate_image 100s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+.con5{position: absolute; top: auto; left: 1200px;}
+.con5 img{
+  
+    width: 400px; height: 400px;
+    animation: rotate_image 80s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+.con6{position: absolute; top: auto; left: 1500px;}
+.con6 img{
+  
+    width: 500px; height: 500px;
+    animation: rotate_image 100s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+
+
+.main{position: absolute; top: 200px; left: 10%;}
+.Con2, .Con3{display: flex; margin-bottom: 150px; width: 1800px;}
+.Con{display: flex; margin-bottom: 150px;  width: 1000px; padding-left: 500px;}
+.Con1{display: flex; margin-bottom: 100px;  width: 1800px; }
+h1, h2, h3{font-size: 60px; margin-right: 50px; display: block;
+    width: 500px; font-style: italic; font-family: sans-serif;
+    color: black;
+}
+h2{width: 700px;}
+
+
+
+.toto{width: 300px; height: 400px; background-color: aqua;
+    background-image: url(../images/mjy.png);
+    background-position: center;
+    background-size: 350px; background-repeat: no-repeat;
+    
+
+}
+.Con p{width: 300px; height: 400px;
+    font-size: 30px; text-align: center; line-height: 60px;
+    font-family: gulim; 
+    padding-top: 100px; padding-left: 100px;}
+.Pic{display: flex; flex-wrap: wrap;}
+.pic1, .pic2, .pic3, .pic4{width: 260px; height: 260px; background-color: aliceblue;
+    margin-bottom: 50px; margin-right: 30px; border-radius: 50%; border: 5px solid black;
+}
+.pic5{width: 260px; height: 234px; background-color: aliceblue;
+    margin-bottom: 50px; margin-right: 30px; border: 5px solid black;
+}
+.pic6{width: 190px; height: 260px; background-color: aliceblue;
+    margin-bottom: 50px; margin-right: 30px; border: 5px solid black;
+}
+.pic9, .pic10{height: 350px; width: 500px; background-color: aliceblue; margin-right: 80px;}
+.pic7{height: 450px; width: 450px; background-color: aliceblue;}
+
+.pic1{background-image: url(../images/아이콘-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;}
+    .pic2{background-image: url(../images/아이콘-2.png);
+        background-repeat: no-repeat;
+        background-size: cover;}
+        .pic3{background-image: url(../images/아이콘-3.png);
+            background-repeat: no-repeat;
+            background-size: cover;}
+            .pic4{background-image: url(../images/아이콘-4.png);
+                background-repeat: no-repeat;
+                background-size: cover;}
+                .pic5{background-image: url(../images/아이콘-5.png);
+                    background-repeat: no-repeat;
+                    background-size: 260px; background-position: center;}
+                    .pic6{background-image: url(../images/음료포스터.png);
+                        background-repeat: no-repeat;
+                        background-size: 188px; background-position: center; }
+.pic7{background-image: url(../images/photoshop-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 450px; background-position: center; }        
+.pic8{background-image: url(../images/);
+    background-repeat: no-repeat;
+    background-size: 500px; background-position: center; }   
+.pic{background-image: url(../images/);
+    background-repeat: no-repeat;
+    background-size: 500px; background-position: center; }      
